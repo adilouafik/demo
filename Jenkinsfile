@@ -10,7 +10,7 @@ pipeline {
 			}
 		}
 		
-		stage(Run Tests") {
+		stage("Run Tests") {
 			parallel {
 				stage("Test on Master") {
 					agent {
